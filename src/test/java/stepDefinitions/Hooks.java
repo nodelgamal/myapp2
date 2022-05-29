@@ -12,7 +12,7 @@ public class Hooks {
     @Before
 
     public static void openbrowser () throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver","src\\main\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\Taroook-3ashry\\Desktop\\automationE-Commerec\\src\\main\\resources\\chromedriver.exe");
 
         //2- new object of webdriver
         driver = new ChromeDriver();
